@@ -23,8 +23,21 @@ body {
   justify-content: space-between;
 }
 
-.skills {
+.skills-container {
+  background: grey;
 
+}
+
+.skills {
+  display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.title {
+  text-align: center;
 }
 
 .contact-box {
