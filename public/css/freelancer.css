@@ -73,7 +73,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #2c3e50;
-    background-color: #fff;
+    background-color: grey;
 }
 
 .img-centered {
@@ -401,6 +401,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
+    background: grey;
     padding: 100px 0;
     min-height: 100%;
     border: 0;
