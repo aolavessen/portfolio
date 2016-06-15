@@ -22,7 +22,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #b3cbff;
+    /*font-size: 20px;*/
 }
 
 h1,
@@ -63,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #b3cbff;
 }
 
 hr.star-primary {
@@ -82,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #b3cbff;
 }
 
 header .container {
@@ -182,7 +183,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #b3cbff;
 }
 
 section.success a,
@@ -207,6 +208,8 @@ section.success a.active {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+
+
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -214,6 +217,7 @@ section.success a.active {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -225,6 +229,7 @@ section.success a.active {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
