@@ -6,7 +6,12 @@
 @import 'box-sizing';
 
 body {
- background: grey;
+ background:grey;
+
+}
+
+.skills1 {
+  font-size: 25px;
 }
 
 .main-container {
@@ -24,16 +29,26 @@ body {
 }
 
 .skills-container {
+  margin: auto;
   background: grey;
 
 }
 
 .skills {
+  margin: auto;
   display: flex;
   // flex-direction: row;
   // flex-wrap: wrap;
   justify-content: space-around;
+  // color: black;
 
+}
+
+.quote1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-style: oblique;
 }
 
 .title {

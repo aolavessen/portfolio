@@ -1,3 +1,5 @@
+'use strict';
+
 const Merge = require('broccoli-merge-trees');
 const Sass = require('broccoli-sass-source-maps');
 const LiveReload = require('broccoli-inject-livereload');
@@ -6,7 +8,11 @@ const Babel = require('broccoli-babel-transpiler');
 const Concat = require('broccoli-sourcemap-concat');
 const rename = require('broccoli-stew').rename;
 
-const pubFiles = new LiveReload('public');
+let pubFiles = new LiveReload('public');
+
+if (process.env.EMBER_ENV === 'production') {
+  pubFiles = 'public';
+}
 
 const stylePaths = [
   'styles',
