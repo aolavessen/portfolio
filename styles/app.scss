@@ -10,8 +10,28 @@ body {
 
 }
 
+.container {
+  // background: purple;
+}
+
+.pic-info {
+  margin: auto;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: center;
+  max-width: 40rem;
+  max-height: 40rem;
+
+}
+
+.intro-text {
+  color: black;
+  font-size: 7px;
+}
+
 .skills1 {
   font-size: 25px;
+
 }
 
 .main-container {
@@ -37,18 +57,37 @@ body {
 .skills {
   margin: auto;
   display: flex;
-  // flex-direction: row;
+  flex-direction: row;
   // flex-wrap: wrap;
   justify-content: space-around;
-  // color: black;
+  color: black;
+  font-size: 20px;
+
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
 
 }
 
 .quote1 {
+  // display: flex;
+  justify-content: center;
+  color: black;
+  font-style: oblique;
+  padding-top: 5rem;
+  margin: auto;
+  padding-left: 2rem;
+}
+
+.quote2 {
   display: flex;
   justify-content: center;
-  color: white;
+  color: black;
   font-style: oblique;
+  padding-top: 5rem;
+  margin: auto;
 }
 
 .title {
