@@ -59,21 +59,21 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #D1FAFF;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #b3cbff;
+    background-color: #5FAD56;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #D1FAFF;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
-    background-color: grey;
+    color: #fff;
+    background-color: #5FAD56;
 }
 
 .img-centered {
@@ -83,7 +83,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #b3cbff;
+    background: #5FAD56;
+
 }
 
 header .container {
@@ -112,8 +113,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 120px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .name {
@@ -183,7 +184,8 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #b3cbff;
+    background: #5FAD56;
+
 }
 
 section.success a,
@@ -192,7 +194,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: black;
 }
 
 @media(max-width:767px) {
@@ -229,6 +231,7 @@ section.success a.active {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    border: solid black;
 
 }
 
@@ -350,7 +353,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #5FAD56;
 }
 
 footer .footer-col {

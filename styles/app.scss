@@ -6,12 +6,13 @@
 @import 'box-sizing';
 
 body {
- background:grey;
+ background:#5FAD56;
 
 }
 
 .container {
   // background: purple;
+   color: black;
 }
 
 .pic-info {
@@ -21,16 +22,16 @@ body {
   justify-content: center;
   max-width: 40rem;
   max-height: 40rem;
-
 }
 
 .intro-text {
   color: black;
   font-size: 7px;
+
 }
 
 .skills1 {
-  font-size: 25px;
+ font-size: 25px;
 
 }
 
@@ -49,49 +50,55 @@ body {
 }
 
 .skills-container {
-  margin: auto;
-  background: grey;
-
+  // margin: 0 0 10.5px;
+  background: #5FAD56;
+  border-bottom: solid #33658A;
+  // border-top: solid #33658A;
 }
 
 .skills {
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  // flex-wrap: wrap;
-  justify-content: space-around;
-  color: black;
-  font-size: 20px;
+ // font-size: 18px;
+ padding-left: 50px;
+ padding-right: 50px;
+ color: black;
 
 }
 
-.skills-container {
-  display: flex;
-  justify-content: center;
-
+.names {
+  color: black;
 }
 
 .quote1 {
-  // display: flex;
+  display: flex;
   justify-content: center;
   color: black;
   font-style: oblique;
-  padding-top: 5rem;
+  font-size: 30px;
   margin: auto;
-  padding-left: 2rem;
-}
+  background-color: #3AB795;
+  border-bottom: solid #33658A;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
 
 .quote2 {
   display: flex;
   justify-content: center;
   color: black;
   font-style: oblique;
-  padding-top: 5rem;
+  // padding-top: 3rem;
   margin: auto;
+  background-color: #3AB795;
+  border-top: solid #33658A;
+  border-bottom: solid #33658A;
+  padding-left: 50px;
+  padding-right: 50px;
+
 }
 
 .title {
   text-align: center;
+  color: black;
 }
 
 .contact-box {
