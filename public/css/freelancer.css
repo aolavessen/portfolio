@@ -467,3 +467,31 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+h4 {
+  color: white;
+}
+
+.fa-html5 {
+  color: maroon;
+}
+
+.fa-css3 {
+  color: maroon;
+}
+
+.fa-random {
+  color: maroon;
+}
+
+.fa-fighter-jet {
+  color: maroon;
+}
+
+.fa-git {
+  color: maroon;
+}
+
+.fa-magic {
+  color: maroon;
+}

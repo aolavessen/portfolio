@@ -1044,6 +1044,7 @@
 }
 .fa-html5:before {
   content: "\f13b";
+  color: white;
 }
 .fa-css3:before {
   content: "\f13c";
