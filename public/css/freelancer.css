@@ -6,10 +6,12 @@
 
 body {
     overflow-x: hidden;
+
 }
 
 p {
     font-size: 20px;
+
 }
 
 p.small {
@@ -469,29 +471,72 @@ footer .footer-below {
 }
 
 h4 {
-  color: white;
+  color: black;
 }
 
 .fa-html5 {
   color: maroon;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 4px;
 }
 
 .fa-css3 {
   color: maroon;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 4px;
+
 }
 
 .fa-random {
   color: maroon;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 4px;
 }
 
 .fa-fighter-jet {
   color: maroon;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 4px;
 }
 
 .fa-git {
   color: maroon;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 4px;
 }
 
 .fa-magic {
   color: maroon;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 4px;
 }
