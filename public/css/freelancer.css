@@ -28,8 +28,14 @@ a.active {
     /*font-size: 20px;*/
 }
 
+h2 {
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-weight: 700;
+
+}
 h1,
-h2,
+/*h2,*/
 h3,
 h4,
 h5,
